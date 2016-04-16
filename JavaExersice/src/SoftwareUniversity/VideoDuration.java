@@ -1,8 +1,12 @@
 package SoftwareUniversity;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import org.apache.log4j.helpers.DateTimeDateFormat;
+import sun.util.calendar.BaseCalendar;
+
+import java.sql.*;
+import java.text.DateFormat;
+import java.util.*;
+import java.util.Date;
 
 /**
  * Peter watches videos every day. Once he wanted to calculate
@@ -50,8 +54,6 @@ public class VideoDuration {
             else{
                 System.out.println(sumHours + ":" + sumMinute);
             }
-
-
 
     }
 }
